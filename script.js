@@ -1,14 +1,9 @@
-
-
-
-
-
 function verifierValeurEntrer(){
     let montantOriginal=Number(document.getElementById('prix_original').value);
     let valeurRemise=Number(document.getElementById('remise').value);
     if(montantOriginal<0 || valeurRemise<0){
         paragraphe=document.querySelector('.paragraphe_montant_original');
-        paragraphe.innerHTML="Remplissez correctement les champs "
+        paragraphe.innerHTML="Remplissez correctement les champs ! mettez au moins une valeur"
     }
 
 };
