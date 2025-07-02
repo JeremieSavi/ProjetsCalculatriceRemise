@@ -4,9 +4,9 @@ function verifierValeurEntrer(){
     if(montantOriginal<=0 || valeurRemise<=0 ){
         paragraphe=document.querySelector('.paragraphe_montant_original');
         paragraphe.innerHTML="Remplissez correctement les champs !"
-        
-    }
 
+    }
+}
 
 
 // Sélection de l'espace de résultat 
