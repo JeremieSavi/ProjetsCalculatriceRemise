@@ -47,7 +47,7 @@ a{
 .paragraphe_resultat{
     display: block;
 }
-@media   (max-width:900) {
+@media   (max-width:900px) {
     #formulaire{
         margin: 2px 20px;
     }
