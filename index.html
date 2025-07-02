@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice de porcentage/remise </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">   
+        <form action="" id="formulaire">
+            <input type="text" id="prix_original" placeholder="Mettez ici le prix original du produit " oninput="verifierValeurEntrer()"><br>
+            <input type="text" id="remise" placeholder="Mettez ici la remise ou le porcentage" oninput="verifierValeurEntrer()">
+            <p class="paragraphe_montant_original"></p>
+           
+            <a href="" onclick="calculerMontantAvecRemise()">Calculer</a>
+            
+            
+             
+
+        </form>
+        <div class="paragraphe_resultat"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
