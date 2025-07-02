@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
 
 }
 .container{
@@ -46,6 +47,8 @@ a{
 .paragraphe_resultat{
     display: block;
 }
-@media  and () {
-    
+@media   (max-width:900) {
+    #formulaire{
+        margin: 2px 20px;
+    }
 }
